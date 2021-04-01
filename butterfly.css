@@ -81,6 +81,7 @@ body {
     position: relative;
     animation: hover 3s linear infinite alternate;
     transform-style: preserve-3d;
+    z-index: 5;
 }
 
 .wing {
