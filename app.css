@@ -18,6 +18,7 @@ body {
   left: 50vw;
   z-index: 1;
 }
+
 .rainbow:after {
   position: absolute;
   content: '';
@@ -27,4 +28,8 @@ body {
   left: 25vw;
   border-radius: 50%;
   box-shadow: 0 0 0 2vw #4200AB, 0 0 0 4vw #000095, 0 0 0 6vw #00ABFF, 0 0 0 8vw #00C800, 0 0 0 10vw #FFF800, 0 0 0 12vw #FF7642, 0 0 0 14vw #E40000;
+}
+
+@media (min-width: 768px) {
+
 }

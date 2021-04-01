@@ -75,6 +75,7 @@ body {
     top 3s cubic-bezier(.34,.63,.26,.94),
     left 3s cubic-bezier(.34,.63,.26,.94),
     transform 1s linear;
+    z-index: 5;
 }
 
 .hover-container {
